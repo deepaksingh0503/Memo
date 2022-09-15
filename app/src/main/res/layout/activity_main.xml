@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:id="@+id/img"
         android:layout_height="0dp"
-        android:src="@drawable/img"
+        tools:srcCompat="@tools:sample/avatars"
+
        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +70,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent=".5" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
